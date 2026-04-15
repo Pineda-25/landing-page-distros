@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Poppins:wght@600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -35,157 +35,249 @@
       <section id="inicio">
         <h1>Mi Jornada en el Ecosistema Linux</h1>
         <p>
-          Explorando el software libre desde la Ingeniería de Software. Un
-          recorrido por las distribuciones que han formado mi experiencia
-          técnica.
+          "Mi recorrido por el ecosistema Linux no ha sido una simple prueba de
+          sistemas operativos, sino la evolución natural de mi mentalidad como estudiante
+          Ingeniero de Software: comencé aprendiendo a adaptarme a las reglas
+          estrictas del servidor, desarrollé una visión crítica auditando la
+          seguridad, y tomé el control absoluto de mi código en la vanguardia,
+          para finalmente alcanzar la madurez técnica de hoy; el punto exacto
+          donde ya no gasto mi tiempo configurando la herramienta, sino que he
+          logrado que el sistema trabaje de forma perfecta, invisible y al
+          máximo rendimiento para mí."
         </p>
       </section>
 
       <section id="estables">
-        <article>
-          <h2>Estabilidad y Fundamentos</h2>
+        <h2>Estabilidad y Fundamentos</h2>
+        <div class="distro-container">
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/debian/A81D33"
+              class="logo"
+              alt="Logo Debian"
+            />
+            <h3>Debian</h3>
+            <p>
+              Sirve como la base sólida para servidores y sistemas que requieren
+              alta disponibilidad sin interrupciones. Mi opinión es que su
+              proceso de instalación y configuración es un poco más técnico,
+              pero una vez que lo dejas listo, es un sistema que simplemente no
+              se rompe y te enseña las verdaderas bases de la administración en
+              Linux.
+            </p>
+            <img
+              src="imagenes/debian.jpg"
+              class="screenshot"
+              alt="Debian Desktop"
+            />
+          </article>
 
-          <h3>Debian</h3>
-          <p>
-            Sirve como la base sólida para servidores y sistemas que requieren
-            alta disponibilidad sin interrupciones. Mi opinión es que su proceso
-            de instalación y configuración es un poco más técnico, pero una vez
-            que lo dejas listo, es un sistema que simplemente no se rompe y te
-            enseña las verdaderas bases de la administración en Linux.
-          </p>
-          <img
-            src="https://cdn.simpleicons.org/debian/A81D33"
-            alt="Logo Debian"
-          />
-
-          <h3>Ubuntu</h3>
-          <p>
-            Ideal para usuarios que recién empiezan o desarrolladores que
-            necesitan compatibilidad rápida con cualquier software. Considero
-            que a veces viene con demasiados paquetes preinstalados que no
-            siempre se usan, pero su enorme comunidad te salva de cualquier
-            error porque siempre hay alguien que ya lo solucionó y publicó la
-            respuesta.
-          </p>
-          <img
-            src="https://cdn.simpleicons.org/ubuntu/E95427"
-            alt="Logo Ubuntu"
-          />
-        </article>
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/ubuntu/E95427"
+              class="logo"
+              alt="Logo Ubuntu"
+            />
+            <h3>Ubuntu</h3>
+            <p>
+              Ideal para usuarios que recién empiezan o desarrolladores que
+              necesitan compatibilidad rápida con cualquier software. Considero
+              que a veces viene con demasiados paquetes preinstalados que no
+              siempre se usan, pero su enorme comunidad te salva de cualquier
+              error porque siempre hay alguien que ya lo solucionó y publicó la
+              respuesta.
+            </p>
+            <img
+              src="imagenes/ubunto.jpeg"
+              class="screenshot"
+              alt="Ubuntu Desktop"
+            />
+          </article>
+        </div>
       </section>
 
       <section id="seguridad">
-        <article>
-          <h2>Auditoría y Hacking Ético</h2>
+        <h2>Auditoría y Hacking Ético</h2>
+        <div class="distro-container">
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/kalilinux"
+              class="logo"
+              alt="Logo Kali"
+            />
+            <h3>Kali Linux</h3>
+            <p>
+              Diseñado específicamente para pruebas de penetración, análisis de
+              redes y auditorías de seguridad informática. En mi experiencia, es
+              una herramienta estricta de trabajo; no es un sistema cómodo para
+              el uso diario, pero tener todo el catálogo de herramientas de
+              seguridad preinstalado te ahorra horas de configuración.
+            </p>
+            <img
+              src="imagenes/kali.jpg"
+              class="screenshot"
+              alt="Kali Desktop"
+            />
+          </article>
 
-          <h3>Kali Linux</h3>
-          <p>
-            Diseñado específicamente para pruebas de penetración, análisis de
-            redes y auditorías de seguridad informática. En mi experiencia, es
-            una herramienta estricta de trabajo; no es un sistema cómodo para el
-            uso diario, pero tener todo el catálogo de herramientas de seguridad
-            preinstalado te ahorra horas de configuración.
-          </p>
-          <img src="https://cdn.simpleicons.org/kalilinux" alt="Logo Kali" />
-
-          <h3>Parrot OS</h3>
-          <p>
-            Otra gran alternativa enfocada en la seguridad informática, la
-            privacidad y el desarrollo de software. Me pareció una opción
-            excelente porque consume muchos menos recursos en la laptop que
-            otras distros de seguridad, y su entorno de escritorio es bastante
-            amigable para poder usarlo también en tareas comunes del día a día.
-          </p>
-          <img
-            src="https://cdn.simpleicons.org/parrotsecurity"
-            alt="Logo Parrot"
-          />
-        </article>
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/parrotsecurity"
+              class="logo"
+              alt="Logo Parrot"
+            />
+            <h3>Parrot OS</h3>
+            <p>
+              Otra gran alternativa enfocada en la seguridad informática, la
+              privacidad y el desarrollo de software. Me pareció una opción
+              excelente porque consume muchos menos recursos en la laptop que
+              otras distros de seguridad, y su entorno de escritorio es bastante
+              amigable para poder usarlo también en tareas comunes del día a
+              día.
+            </p>
+            <img
+              src="imagenes/Parrot.webp"
+              class="screenshot"
+              alt="Parrot Desktop"
+            />
+          </article>
+        </div>
       </section>
 
       <section id="vanguardia">
-        <article>
-          <h2>Control y Actualización</h2>
+        <h2>Vanguardia y Control</h2>
+        <div class="distro-container">
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/fedora/51A2DA"
+              class="logo"
+              alt="Logo Fedora"
+            />
+            <h3>Fedora</h3>
+            <p>
+              Perfecto para quienes buscan software muy actualizado sin perder
+              la estabilidad de un entorno de trabajo serio y profesional. Me
+              gustó mucho cómo maneja sus actualizaciones y considero que es un
+              puente excelente para entender cómo funcionan los sistemas
+              empresariales que se usan a nivel de servidores corporativos.
+            </p>
+            <img
+              src="imagenes/fedora.webp"
+              class="screenshot"
+              alt="Fedora Desktop"
+            />
+          </article>
 
-          <h3>Fedora</h3>
-          <p>
-            Perfecto para quienes buscan software muy actualizado sin perder la
-            estabilidad de un entorno de trabajo serio y profesional. Me gustó
-            mucho cómo maneja sus actualizaciones y considero que es un puente
-            excelente para entender cómo funcionan los sistemas empresariales
-            que se usan a nivel de servidores corporativos.
-          </p>
-          <img
-            src="https://cdn.simpleicons.org/fedora/51A2DA"
-            alt="Logo Fedora"
-          />
-
-          <h3>Manjaro</h3>
-          <p>
-            Sirve para tener lo último en paquetería gracias a su modelo de
-            actualización continua (Rolling Release) sin tener que pasar por la
-            compleja instalación de Arch Linux puro. Me gustó demasiado; es un
-            sistema súper rápido, me dio mucho control sobre mi máquina y me
-            permitió instalar herramientas de programación al instante sin
-            compilar nada.
-          </p>
-          <img
-            src="https://cdn.simpleicons.org/manjaro/35BF5C"
-            alt="Logo Manjaro"
-          />
-        </article>
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/manjaro/35BF5C"
+              class="logo"
+              alt="Logo Manjaro"
+            />
+            <h3>Manjaro</h3>
+            <p>
+              Sirve para tener lo último en paquetería gracias a su modelo de
+              actualización continua (Rolling Release) sin tener que pasar por
+              la compleja instalación de Arch Linux puro. Me gustó demasiado; es
+              un sistema súper rápido, me dio mucho control sobre mi máquina y
+              me permitió instalar herramientas de programación al instante sin
+              compilar nada.
+            </p>
+            <img
+              src="imagenes/manjaro.png"
+              class="screenshot"
+              alt="Manjaro Desktop"
+            />
+          </article>
+        </div>
       </section>
 
       <section id="rendimiento">
-        <article>
-          <h2>Rendimiento y Experiencia</h2>
+        <h2>Rendimiento y Gaming</h2>
+        <div class="distro-container">
+          <article class="distro-card">
+            <img
+              src="https://cdn.simpleicons.org/zorin/0CC3E8"
+              class="logo"
+              alt="Logo Zorin"
+            />
+            <h3>Zorin OS</h3>
+            <p>
+              Enfocado en revivir computadoras con bajos recursos y proporcionar
+              una transición sin dolores de cabeza para los usuarios que vienen
+              de Windows. Mi opinión es que tiene una de las interfaces más
+              cuidadas y hermosas de todo Linux; hace que el sistema se sienta
+              muy moderno y oculta la complejidad de la terminal al usuario
+              común.
+            </p>
+            <img
+              src="imagenes/zorin.png"
+              class="screenshot"
+              alt="Zorin Desktop"
+            />
+          </article>
 
-          <h3>Zorin OS</h3>
-          <p>
-            Enfocado en revivir computadoras con bajos recursos y proporcionar
-            una transición sin dolores de cabeza para los usuarios que vienen de
-            Windows. Mi opinión es que tiene una de las interfaces más cuidadas
-            y hermosas de todo Linux; hace que el sistema se sienta muy moderno
-            y oculta la complejidad de la terminal al usuario común.
-          </p>
-          <img
-            src="https://cdn.simpleicons.org/zorin/0CC3E8"
-            alt="Logo Zorin"
-          />
-
-          <h3>Nobara</h3>
-          <p>
-            Creado específicamente para creadores de contenido, desarrolladores
-            y gamers que no quieren pelear configurando dependencias de video o
-            drivers. Considero que es una distribución muy robusta que te
-            entrega el sistema listo para funcionar al máximo rendimiento de
-            hardware desde el minuto uno, ahorrando mucho tiempo de ajustes.
-          </p>
-          <img
-            src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/nobara.svg"
-            alt="Logo Nobara"
-          />
-        </article>
+          <article class="distro-card">
+            <img
+              src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/nobara.svg"
+              class="logo"
+              alt="Logo Nobara"
+            />
+            <h3>Nobara</h3>
+            <p>
+              Creado específicamente para creadores de contenido,
+              desarrolladores y gamers que no quieren pelear configurando
+              dependencias de video o drivers. Considero que es una distribución
+              muy robusta que te entrega el sistema listo para funcionar al
+              máximo rendimiento de hardware desde el minuto uno, ahorrando
+              mucho tiempo de ajustes.
+            </p>
+            <img
+              src="imagenes/nobara.png"
+              class="screenshot"
+              alt="Nobara Desktop"
+            />
+          </article>
+        </div>
       </section>
 
       <section id="multimedia">
-        <h2>Perspectiva Visual</h2>
-        <iframe src="https://www.youtube.com/embed/fa32Hl62OoU?si=1RVGzO0C4HIbjx5J"></iframe>
+        <h2>Perspectiva Visual - Conoce el Ecosistema Linux</h2>
+        <p
+          style="
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #94a3b8;
+            font-size: 1.1rem;
+          "
+        >
+          Una mirada profunda a las distribuciones que transforman la forma de
+          trabajar
+        </p>
+        <iframe
+          src="https://www.youtube.com/embed/P003kpGUl9k?si=OA43TzRryqF9A63f"
+        ></iframe>
       </section>
 
       <section id="contacto">
-        <h4>Contactanos</h4>
+        <h4 style="text-align: center">Contáctanos</h4>
         <form action="">
-          <div><input type="text" value="Tu Nombre" /></div>
-          <div><input type="text" value="Tu Correo" /></div>
-          <div><input type="text" value="Tu Comentario" /></div>
-          <button class="btn">Enviar</button>
+          <div>
+            <input type="text" placeholder="Nombre" />
+          </div>
+          <div>
+            <input type="email" placeholder="ejemplo@correo.com" />
+          </div>
+          <div>
+            <input type="text" placeholder="¿Qué te pareció?" />
+          </div>
+          <button class="btn">Enviar Mensaje</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <p>Creado por Winni - Proyecto SENATI</p>
+      <p>Creado por Pineda - Proyecto SENATI</p>
     </footer>
 
     <script src="app.js"></script>
