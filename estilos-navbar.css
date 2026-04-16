@@ -9,8 +9,8 @@ header {
     transform: translateX(-50%);
     width: 90%; 
     max-width: 850px; 
-    background: rgba(15, 25, 55, 0.85); 
-    border: 2px solid #0088ff; 
+    background: rgba(255, 255, 255, 0.95); 
+    border: none; 
     border-radius: 50px; 
     z-index: 1000; 
     transition: all 0.2s ease;
@@ -31,7 +31,7 @@ header {
 
 .btn {
     text-decoration: none;
-    color: #7c9fbf; 
+    color: #000000; 
     font-family: 'Poppins', sans-serif; 
     font-weight: 600; 
     font-size: 0.95rem; 
@@ -42,8 +42,8 @@ header {
 }
 
 .btn:hover {
-    color: #00e5ff; 
-    background: rgba(0, 150, 255, 0.2); 
+    color: #000000; 
+    background: rgba(0, 0, 0, 0.1); 
     border-color: transparent;
     transform: scale(1.08); 
 }
